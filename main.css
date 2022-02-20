@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/1376111.jpg");
+    background-position: top;
+    text-align: center;
+}
+
+.boite{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: cadetblue;
+    margin: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
