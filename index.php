@@ -6,7 +6,13 @@
     <title>Accueil - Les Kyartes</title>
 </head>
 <body>
-    <a href="index.html" style="text-decoration: none;">
+    <?php
+        session_start();
+        if(isset($_POST['pseudo'])){
+            $_SESSION['pseudo'] = $_POST['pseudo'];
+        }
+    ?>
+    <a href="index.php" style="text-decoration: none;">
         <div class="boite">
             <h1>Les Kyartes</h1>
         </div>
